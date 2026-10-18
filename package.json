@@ -1,0 +1,11 @@
+{
+  "name": "abworks-dev-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:earthrise": "node scripts/generate-earthrise.mjs"
+  },
+  "devDependencies": {
+    "ascii.rest": "0.4.0"
+  }
+}

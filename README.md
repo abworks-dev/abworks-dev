@@ -9,12 +9,6 @@ Building agents that turn experience into capability.
 **构建将经验转化为能力的 Agent。**
 
 <p>
-  <img src="https://img.shields.io/badge/Design-AI--native-4F8CFF?style=flat-square" alt="AI-native by design" />
-  <img src="https://img.shields.io/badge/Practice-Agent--first-7C3AED?style=flat-square" alt="Agent-first in practice" />
-  <img src="https://img.shields.io/badge/Status-Building%20in%20Public-2DD4BF?style=flat-square" alt="Building in public" />
-</p>
-
-<p>
   <a href="https://ascii.rest/earthrise/">
     <img src="assets/earthrise.svg" alt="Earthrise — Earth above a cratered lunar horizon, in animated ASCII art" width="800" />
   </a>
@@ -24,21 +18,29 @@ Building agents that turn experience into capability.
 
 ## About
 
-I'm learning by building AI-native systems, working with agents as teammates.
+I learn by building AI-native systems, with agents as teammates.
 
-我通过构建、测试与迭代探索 Agent 系统，重点关注：
+I'm interested in what happens beyond a good answer: how an agent uses tools, checks its work, and carries useful experience into the next task. Memory and skills matter to me when they make that next task go better—not just when they give the agent more to remember.
 
-- **AI-native workflows** — Design knowledge, tools, and workflows for agents from the start.
-- **Human-directed, agent-driven** — Humans set direction; agents plan, act, and verify within clear boundaries.
-- **Self-improving agents** — Turn experience into reusable memory and skills, with evaluation to validate progress.
+## What I'm exploring
 
-Inspired by the pursuit of AGI. Grounded in building useful agents today.
-
-My engineering preference is simple:
-
-> Evidence over claims. Build, verify, review, and improve.
+- **Agent workflows** — How should tools, knowledge, and task boundaries be designed so agents can work with them reliably?
+- **Memory & skills** — What is worth remembering, and when should a successful approach become a reusable skill?
+- **Evaluation & feedback** — How do we tell whether an agent has improved, rather than simply changed its behavior?
 
 ## How I build
+
+> Evidence over claims.
+
+My working principles:
+
+1. **Define what “done” means.** Make the goal, constraints, and checks explicit before handing a task to an agent.
+2. **Delegate work, not judgment.** Let agents plan, act, and verify within clear boundaries; keep people responsible for direction and consequential decisions.
+3. **Review before reusing.** Check the result, examine failures, and test whether a lesson is useful before turning it into memory or a skill.
+
+A small example lives on this page: the Earthrise banner is generated from an existing ASCII scene, with a four-second forward/reverse loop and an explicit 4 MiB size limit. The [generator](scripts/generate-earthrise.mjs) and [artwork notes](assets/README.md) make those choices inspectable and reproducible.
+
+## Tools I work with
 
 **My AI teammates**
 
@@ -48,23 +50,17 @@ My engineering preference is simple:
   <a href="https://github.com/openai/codex"><img src="assets/codex-badge.svg" alt="OpenAI Codex" height="28" /></a>
 </p>
 
-**Tech stack**
+**Applications** · Python / FastAPI · TypeScript / React
 
-`Python` · `FastAPI` · `React` · `TypeScript` · `Docker Compose` · `Linux` · `PostgreSQL` · `Redis` · `Qdrant` · `Obsidian` · `Git`
+**Infrastructure & data** · Linux · Docker Compose · PostgreSQL · Redis · Qdrant
 
-**Currently exploring**
+**Knowledge & versioning** · Obsidian · Git
 
-`Agent Loop` · `Tool Calling` · `Memory` · `Skills` · `RAG` · `Feedback Loops` · `Human-in-the-loop` · `Testing` · `Observability` · `Evaluation`
+## Let's talk about
 
-## Contact
+Agent harnesses, knowledge systems built for agents, and what makes an AI workflow reliable enough to use day to day.
 
-I'm interested in AI-native applications, agent harnesses, self-improving agents, agent-ready knowledge systems, self-hosted infrastructure, and Minecraft engineering automation.
-
-<p align="center">
-  <a href="https://github.com/abworks-dev">
-    <img src="https://img.shields.io/badge/GitHub-abworks--dev-181717?style=for-the-badge&logo=github&logoColor=white" alt="AB on GitHub" />
-  </a>
-</p>
+Beyond agents, I'm interested in self-hosted infrastructure and Minecraft engineering automation. Different settings, with a shared appeal: understanding how the pieces fit together, then making them work.
 
 <div align="right">
 
